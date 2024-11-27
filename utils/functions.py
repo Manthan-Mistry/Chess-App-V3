@@ -5,6 +5,7 @@ from supabase import create_client, Client
 import pandas as pd
 import re
 import time
+import os
 import plotly.graph_objects as go
 import plotly.express as px
 import wikipedia
@@ -1391,8 +1392,8 @@ def get_game_class_rating(df: pd.DataFrame, player: str, game_class: str) -> flo
 
 # Using supabase
 
-SUPABASE_URL = st.secrets["PROJECT_URL"]
-SUPABASE_KEY = st.secrets["API_KEY"]
+SUPABASE_URL = os.getenv("PROJECT_URL")
+SUPABASE_KEY = os.getenv("API_KEY")
 
 # Functions for asynchronous fetching
 async def fetch_archive_urls(player_name, session):
