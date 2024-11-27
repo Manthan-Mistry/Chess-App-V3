@@ -1,7 +1,6 @@
-pip==24.3.1
 aiohttp
 chess.com==2.1.0
-pandas==2.2.3
+pandas
 plotly==5.18.0
 requests==2.28.0
 streamlit==1.40.2
