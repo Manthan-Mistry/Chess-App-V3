@@ -247,19 +247,19 @@ def show_senior_players():
         st.plotly_chart(player_win_chart(df, selected_player, 400, 300),  config={'displayModeBar': False},  use_container_width=True)
         image_path = 'assets/Pie Chart Legend (1).png'
         st.write('')
-        st.image(image = image_path, use_column_width=True)
+        st.image(image = image_path, use_container_width=True)
 
     with col2:
         st.plotly_chart(player_draw_chart(df, selected_player, 400, 300),  config={'displayModeBar': False}, use_container_width=True)
         image_path = 'assets/New Draw Pie Chart Legend (1).png'
         st.write('')
-        st.image(image = image_path, use_column_width=True)
+        st.image(image = image_path, use_container_width=True)
 
     with col3:
         st.plotly_chart(player_loss_chart(df, selected_player, 400 , 300),  config={'displayModeBar': False}, use_container_width=True)
         image_path = 'assets/Lose Pie Chart Legend.png'
         st.write('')
-        st.image(image = image_path, use_column_width=True)
+        st.image(image = image_path, use_container_width=True)
 
     if 'tab_selected' not in st.session_state:
         st.session_state.tab_selected = 'white'
