@@ -1,8 +1,8 @@
-🔗 App Link: [Chess-App](https://chess-app-v3.onrender.com/)
-
-# 📄 About Project
+# 📄 About Project - 
 
 ![App Flow Diagram](https://github.com/Manthan-Mistry/Chess-App-V3/blob/main/assets/db-diagram-1.svg)
+
+## 🔗 App Link: [Chess-App](https://chess-app-v3.onrender.com/)
 
 ## 🔍 Project Overview
 The main purpose of this project is to showcase proficiency in:  
