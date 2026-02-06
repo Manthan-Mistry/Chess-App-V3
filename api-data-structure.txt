@@ -1,0 +1,38 @@
+{
+  "games": [
+    {
+      "url": "https://www.chess.com/game/live/164152001420",
+      "pgn": "[Event \"Live Chess\"]\n[Site \"Chess.com\"]\n[Date \"2026.02.02\"]\n[Round \"-\"]\n[White \"Shtembuliak\"]\n[Black \"MagnusCarlsen\"]\n[Result \"0-1\"]\n[CurrentPosition \"2kr3r/pb2qpn1/1p6/2p1p3/1nP2P2/1PQ1P1PN/P2P2BP/2KR2R1 w - - 5 24\"]\n[Timezone \"UTC\"]\n[ECO \"A36\"]\n[ECOUrl \"https://www.chess.com/openings/English-Opening-Fianchetto-Ultra-Symmetrical-Line\"]\n[UTCDate \"2026.02.02\"]\n[UTCTime \"19:43:28\"]\n[WhiteElo \"3028\"]\n[BlackElo \"3336\"]\n[TimeControl \"180\"]\n[Termination \"MagnusCarlsen won by resignation\"]\n[StartTime \"19:43:28\"]\n[EndDate \"2026.02.02\"]\n[EndTime \"19:46:22\"]\n[Link \"https://www.chess.com/game/live/164152001420\"]\n\n1. c4 {[%clk 0:02:57.4]} 1... c5 {[%clk 0:02:58.8]} 2. Nc3 {[%clk 0:02:50.5]} 2... g6 {[%clk 0:02:57.6]} 3. g3 {[%clk 0:02:48.6]} 3... Bg7 {[%clk 0:02:57.3]} 4. Bg2 {[%clk 0:02:48.4]} 4... Nc6 {[%clk 0:02:56.7]} 5. Nh3 {[%clk 0:02:45.7]} 5... h5 {[%clk 0:02:53.1]} 6. Nf4 {[%clk 0:02:43.2]} 6... h4 {[%clk 0:02:50]} 7. b3 {[%clk 0:02:40.1]} 7... d6 {[%clk 0:02:46.6]} 8. Bb2 {[%clk 0:02:38.4]} 8... g5 {[%clk 0:02:43.9]} 9. Nfd5 {[%clk 0:02:35.5]} 9... h3 {[%clk 0:02:42.5]} 10. Bf1 {[%clk 0:02:32]} 10... e6 {[%clk 0:02:41.5]} 11. Ne3 {[%clk 0:02:31.2]} 11... Nge7 {[%clk 0:02:38.8]} 12. Nc2 {[%clk 0:02:28.1]} 12... d5 {[%clk 0:02:37.5]} 13. e3 {[%clk 0:02:22.5]} 13... d4 {[%clk 0:02:36.1]} 14. Ne4 {[%clk 0:02:19.5]} 14... b6 {[%clk 0:02:23.3]} 15. Nxg5 {[%clk 0:02:12.5]} 15... Nf5 {[%clk 0:02:22]} 16. Nxh3 {[%clk 0:01:59]} 16... Bb7 {[%clk 0:02:12.4]} 17. Rg1 {[%clk 0:01:51.7]} 17... d3 {[%clk 0:02:11.1]} 18. Bxg7 {[%clk 0:01:42.7]} 18... dxc2 {[%clk 0:02:09.9]} 19. Qxc2 {[%clk 0:01:25.4]} 19... Nxg7 {[%clk 0:02:08.2]} 20. Qc3 {[%clk 0:01:24.7]} 20... e5 {[%clk 0:01:59.3]} 21. f4 {[%clk 0:01:24.1]} 21... Qe7 {[%clk 0:01:57.9]} 22. Bg2 {[%clk 0:01:20.6]} 22... O-O-O {[%clk 0:01:56.8]} 23. O-O-O {[%clk 0:01:19.7]} 23... Nb4 {[%clk 0:01:55.9]} 0-1\n",
+      "time_control": "180",
+      "end_time": 1770061582,
+      "rated": true,
+      "accuracies": {
+        "white": 78.94,
+        "black": 88.41
+      },
+      "tcn": "kAYIbs2Uow92fo5Qgx3NxDNFjrZRcjUMDJFxof0SJu!0ukRJmuJBsCXPCM0LMx6XhgBtj2tkdkL2ksSKnD70fo86ecQz",
+      "uuid": "728e3c90-006f-11f1-8012-971c8801000f",
+      "initial_setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "fen": "2kr3r/pb2qpn1/1p6/2p1p3/1nP2P2/1PQ1P1PN/P2P2BP/2KR2R1 w - - 5 24",
+      "time_class": "blitz",
+      "rules": "chess",
+      "white": {
+        "rating": 3028,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/shtembuliak",
+        "username": "Shtembuliak",
+        "uuid": "b6dce67c-4144-11e6-8052-000000000000"
+      },
+      "black": {
+        "rating": 3336,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/magnuscarlsen",
+        "username": "MagnusCarlsen",
+        "uuid": "a2761738-b155-11df-8018-000000000000"
+      },
+      "eco": "https://www.chess.com/openings/English-Opening-Fianchetto-Ultra-Symmetrical-Line"
+    },
+    {...},
+    {...}
+  ]
+}
